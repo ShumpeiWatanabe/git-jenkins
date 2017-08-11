@@ -1,4 +1,4 @@
-node('lebel-jenkins') {
+node('lebeljenkins') {
   stage('build'){
     checkout scm
     sh 'ls -lr'
