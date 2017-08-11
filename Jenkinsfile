@@ -1,4 +1,4 @@
-node('jenkinsslave') {
+node('linux') {
   stage('build'){
     checkout scm
     sh 'ls -lr'
